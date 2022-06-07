@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0f1bb0</color>
+    <color name="colorPrimaryDark">#000b8c</color>
+    <color name="colorAccent">#1CAAAC</color>
+    <color name="colorTint">#1CAAAC</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorSelected">#3189AE</color>
+
+    <color name="black">#000000</color>
+    <color name="expressColor">#02783c</color>
+    <color name="expressColorDark">#015329</color>
+    <color name="demsColor">#5590e4</color>
+    <color name="demsColorDark">#3c67a4</color>
+    <color name="otherColor">#ff9322</color>
+    <color name="otherColorDark">#d1771a</color>
+
+    <color name="approve">#347db6</color>
+    <color name="reject">#ed5565</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_pale">#e6e6e6</color>
+    <color name="text_hint">#b3b3b3</color>
+    <color name="text_main">#333333</color>
+    <color name="text_sub_title">#b1b1b1</color>
+    <color name="dividerColor">#565656</color>
+    <color name="boxBg">#d7d2d2</color>
+    <color name="cardDivider">#e1e1e1</color>
+    <color name="teal">#00796B</color>
+    <color name="yellow">#FFC107</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="green">#47b703</color>
+    <color name="red">#f20808</color>
+
+    <color name="express_color">#2c7604</color>
+    <color name="vpp_color">#1424ba</color>
+    <color name="vpl_color">#e37912</color>
+    <color name="normal_color">#bccc00</color>
+
+    <color name="gray_light">#DCDCDC</color>
+</resources>

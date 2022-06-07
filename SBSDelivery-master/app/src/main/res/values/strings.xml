@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">SBS Delivery</string>
+    <string name="connection_error"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_no_internet">No Internet!</string>
+    <string name="b1_no_internet">အင်တာနက်ချိတ်ဆက်ထားခြင်းမရှိပါ!</string>
+    <string name="b2_no_internet">အင်တာနက်ချိတ်ဆက်ထားခြင်း ရှိ၊မရှိ စစ်ဆေးပြီးမှ \n
+နောက်တစ်ကြိမ်ထပ်မံလုပ်ဆောင်ပါ။</string>
+
+    <string name="title_location_sharing_off">Location Sharing off!</string>
+    <string name="b1_location_sharing_off">တည်နေရာပြခြင်း Setting အား ဖွင့်ထားခြင်းမရှိပါ !</string>
+    <string name="b2_location_sharing_off">တည်နေရာပြခြင်း Setting အားဖွင့်ပြီးမှ\n
+နောက်တစ်ကြိမ်ထပ်မံလုပ်ဆောင်ပါ။</string>
+
+    <string name="title_file_permissions_off">File Permissions off!</string>
+    <string name="b1_file_permissions_off">အချက်အလက်များ သိမ်းဆည်း/ရယူရန် အတွက်\n
+လုပ်ဆောင်ခွင့် မပေးထားပါ !</string>
+    <string name="b2_file_permissions_off">ရှေ့ဆက်လုပ်ဆောင်ရန်အတွက်  Setting ထဲရှိ\n
+File Permission Option အား\n
+ပြောင်းလဲပေးရန် လိုအပ်ပါသည်။</string>
+
+    <string name="title_camera_permissions_off">Camera Permissions off!</string>
+    <string name="b1_camera_permissions_off">ကင်မရာအသုံးပြုရန်အတွက် လုပ်ဆောင်ခွင့်\n
+မပေးထားပါ !</string>
+    <string name="b2_camera_permissions_off">ကင်မရာအသုံးပြုရန်အတွက် Setting ထဲရှိ\n
+Camera Permission Option အား\n
+ပြောင်းလဲပေးရန် လိုအပ်ပါသည်။</string>
+
+    <string name="title_delivered">Delivered !</string>
+    <string name="b1_delivered">ပို့ဆောင်မှု အောင်မြင်ပါတယ် !</string>
+    <string name="b2_delivered">ပို့ဆောင်မှု အသေးစိတ်အချက်အလက်များကို\n
+" ပို့ဆောင်ပြီး " section တွင်\n
+ပြန်လည်ကြည့်ရှုနိုင်ပါသည်။
+</string>
+
+    <string name="btn_retry">Retry</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_go_to_setting">Setting ထဲသို့သွားမည်</string>
+
+    <string name="label_mingalarpar">Font Selection</string>
+    <string name="label_choose_font">အသုံးပြုမည့်ဖောင့်ကို ရွေးချယ်ပါ။</string>
+    <string name="label_zawgyi_or_uni">ဇော်ဂျီ (သို့) ယူနီကုဒ် တစ်ခုခုကိုရွေးချယ်ပါ</string>
+    <string name="label_mm_zawgyi">ျမန္မာေဇာ္ဂ်ီ</string>
+    <string name="label_mm_uni">မြန်မာယူနီကုဒ်</string>
+    <string name="action_choose">ဝင်မည်</string>
+
+    <string name="search_tracking_code">ကုတ်နံပါတ်ဖြင့်ရှာမည်</string>
+    <string name="str_empty">အချက်အလက် ဖြည့်သွင်းပါ</string>
+
+    <string name="easy_delivery">"လွယ်ကူ၊ မြန်ဆန် ပို့ဆောင်ရန်"</string>
+
+    <string name="progress_deliver">ပို့ဆောင်နေစဉ်</string>
+    <string name="complete_deliver">ပို့ဆောင်ပြီး</string>
+    <string name="accept_parcel">ချောလက်ခံရန်</string>
+
+
+    <string name="sender">ပေးပို့သူ</string>
+    <string name="receiver">လက်ခံမည့်သူ</string>
+
+    <string name="delivery_system">ပို့ဆောင့်မှုစနစ်</string>
+    <string name="item_types">ပစ္စည်းအမျိုးအစား</string>
+    <string name="weight">အလေးချိန်</string>
+    <string name="delivery_cost">ပို့ဆောင်ခ</string>
+    <string name="start_deliver">စတင်ပို့ဆောင်မည်</string>
+
+    <string name="no_delivered">ပို့ဆောင်မှုအဆင်မပြေပါ</string>
+    <string name="delivered_complete">ပို့ဆောင်ပြီးပါပြီ</string>
+
+    <string name="express">အမြန်ချော</string>
+    <string name="parcel">ချောထုတ်</string>
+    <string name="kyats">ကျပ်</string>
+    <string name="kg">ကီလိုဂရမ်</string>
+
+    <string name="daily_delivered">ရက်အလိုက်</string>
+    <string name="monthly_delivered">လအလိုက်</string>
+    <string name="months">လများ</string>
+    <string name="dates">နေ့စွဲ</string>
+    <string name="delivered">ပြီးမြောက်</string>
+    <string name="return_parcel">ပြန်ပို့</string>
+
+    <string name="about">အကြောင်းအရာ</string>
+    <string name="invalid_address">လိပ်စာမပြည့်စုံပါ</string>
+    <string name="no_recipient">လက်ခံမည့်သူမရှီပါ</string>
+
+    <string name="change_address">လိပ်စာရှင်ပြောင်းရွှေ့သွားပါသည်</string>
+    <string name="address_denied">လိပ်စာရှင်မှငြင်းပယ်ပါသည်</string>
+    <string name="return_sender">ပို့သူထံပြန်ပို့</string>
+    <string name="other_about">အခြားအကြောင်းအရာ</string>
+    <string name="send_info">သတင်းပို့မည်</string>
+    <string name="to_add_photo">ပုံထည့်ရန်</string>
+
+    <string name="owner_accept">ပိုင်ရှင်ကိုယ်တိုင်လက်ခံ</string>
+    <string name="another_accept">ကိုယ်စားလက်ခံ</string>
+
+    <string name="name">အမည်</string>
+    <string name="phone_no">ဖုန်းနံပါတ်</string>
+    <string name="sign_cancel">ဖျက်မည်</string>
+    <string name="sign_add">လက်မှတ်ကိုပြန်ပို့မည်</string>
+    <string name="require_accept_parcel">ပေးပို့သူ မချက်အလက်၊ လက်ခံသူအချက်အလက်နှင့် ကုန်ပစ္စည်းအချက်အလက်များကို သေချာစွာစစ်ဆေးပြီးမှ ဖြည့်သွင်းပါရန်!</string>
+
+    <string name="accept_new_parcel">ချောအသစ်လက်ခံမည်</string>
+
+    <string name="sender_info">ပေးပို့သူအချက်အလက်များ</string>
+    <string name="home_no">အိမ်အမှတ်</string>
+    <string name="quarter_no">ရပ်ကွက်အမှတ်</string>
+    <string name="street_no">လမ်းအမှတ်</string>
+    <string name="to_fill_sender_info">လက်ခံသူအချက်အလက်များဖြည့်သွင်းမည်</string>
+    <string name="new_sender">ပေးပို့သူအသစ်</string>
+    <string name="old_sender">ပေးပို့သူအဟောင်း</string>
+
+    <string name="receiver_info">လက်ခံသူအချက်အလက်များ</string>
+    <string name="new_receiver">လက်ခံသူအသစ်</string>
+    <string name="old_receiver">လက်ခံသူအဟောင်</string>
+    <string name="send_products_info">ပေးပို့ပစ္စည်းအချက်အလက်များဖြည့်သွင်းမည်</string>
+
+    <string name="deliver_products_info">ပေးပို့ပစ္စည်းအချက်အလက်များ</string>
+    <string name="product_name">ပစ္စည်းအမျိုးအမည်</string>
+    <string name="send_product_type">ပေးပို့ပစ္စည်းအမျိုးအစား</string>
+    <string name="service_type">ဝန်ဆောင်မှုအမျိုးအစား</string>
+    <string name="total_cost">စုစုပေါင်းကျသင့်ငွေ</string>
+    <string name="received">လက်ခံမည်</string>
+
+    <string name="at_least_password">စကားဝှက်ပြုလုပ်ရာတွင် အနည်းဆုံး စကားလုံး ၆ လုံးပါဝင်ရမည်‌ဖြစ်ပြီး ကိန်းဂဏန်းနှင့် စာလုံးအကြီး စသည်တို့ကို ထည့်သွင်းပြုလုပ်ရပါမည်။</string>
+    <string name="change_password">စကားဝှက်ပြောင်းလဲမည်</string>
+    <string name="change">ပြောင်းလဲမည်</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

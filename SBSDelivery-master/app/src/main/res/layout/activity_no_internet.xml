@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".noti.NoInternetActivity">
+
+    <com.za.sbs.delivery.widgets.MMTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_no_internet"
+        android:textColor="@color/colorTint"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <com.za.sbs.delivery.widgets.MMTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/b1_no_internet"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="36dp"
+        android:src="@mipmap/ic_no_internet" />
+
+    <com.za.sbs.delivery.widgets.MMTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/b2_no_internet"
+        android:textColor="@color/colorWhite"
+        android:textSize="17dp" />
+
+    <com.za.sbs.delivery.widgets.MMButton
+        android:id="@+id/btnRetry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:textSize="18dp"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="54dp"
+        android:paddingRight="54dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:background="@drawable/button_background"
+        android:text="@string/btn_retry" />
+</LinearLayout>

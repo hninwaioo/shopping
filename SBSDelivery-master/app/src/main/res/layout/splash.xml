@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:background="@drawable/background">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="3"-->
+<!--        android:orientation="vertical">-->
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/sbs_logo_for_main_screen"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="0dp"
+            android:layout_weight="1.8"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="-20dp"
+            android:elevation="0.2dp"
+            android:src="@drawable/infographic_image"/>
+
+<!--    </LinearLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.35"
+        android:orientation="vertical"
+        android:background="@drawable/round_top_corner_white">
+
+        <com.za.sbs.delivery.widgets.MMTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:id="@+id/easy_delivery"
+            android:text="@string/easy_delivery"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="24dp"/>
+
+        <com.za.sbs.delivery.widgets.MMButton
+            android:id="@+id/btnSplash"
+            android:layout_below="@+id/easy_delivery"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="54dp"
+            android:paddingRight="54dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_background"
+            android:text="စတင်မည်" />
+
+        <com.za.sbs.delivery.widgets.MMTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="Developed By Za Information Technology Co.,Ltd \n @2019 SBS Express"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+</LinearLayout>
